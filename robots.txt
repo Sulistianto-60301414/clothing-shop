@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Avoid indexing transactional pages
+Disallow: /checkout.html
+Disallow: /order-success.html
+
+Sitemap: https://sulistianto-60301414.github.io/clothing-shop/sitemap.xml
