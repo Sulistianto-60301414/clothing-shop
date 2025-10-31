@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us — Clothify</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container header">
+    <a class="logo" href="index.html">Clothify</a>
+    <nav class="nav">
+      <a href="index.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+      <a href="wishlist.html">Wishlist <span id="wishlist-count" class="badge">0</span></a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count" class="badge">0</span></a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Contact Us</h1>
+    
+    <div class="contact-content">
+      <div class="contact-info">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you! Whether you have questions about our products, need sizing help, or want to provide feedback, we're here to help.</p>
+        
+        <div class="contact-methods">
+          <div class="contact-method">
+            <h3>📧 Email</h3>
+            <p>hello@clothify.com<br>
+            We typically respond within 24 hours</p>
+          </div>
+          
+          <div class="contact-method">
+            <h3>📞 Phone</h3>
+            <p>+974 1234 5678<br>
+            Monday - Friday: 9 AM - 6 PM (Qatar time)</p>
+          </div>
+          
+          <div class="contact-method">
+            <h3>📍 Address</h3>
+            <p>Clothify Headquarters<br>
+            123 Fashion Street<br>
+            Doha, Qatar</p>
+          </div>
+          
+          <div class="contact-method">
+            <h3>💬 Live Chat</h3>
+            <p>Available on our website<br>
+            Monday - Friday: 9 AM - 9 PM (Qatar time)</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="contact-form">
+        <h2>Send us a Message</h2>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Select a subject</option>
+              <option value="order">Order Inquiry</option>
+              <option value="product">Product Question</option>
+              <option value="sizing">Sizing Help</option>
+              <option value="return">Returns & Exchanges</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help you..."></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+        
+        <div id="form-success" class="hidden">
+          <p class="success-message">✅ Thank you for your message! We'll get back to you soon.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>What is your return policy?</h3>
+          <p>We offer a 30-day return policy for unworn items in original condition with tags attached.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>How long does shipping take?</h3>
+          <p>Standard shipping within Qatar takes 2-3 business days. International shipping takes 5-10 business days.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>Do you offer international shipping?</h3>
+          <p>Yes, we ship worldwide! Shipping costs are calculated at checkout based on your location.</p>
+        </div>
+        
+        <div class="faq-item">
+          <h3>How do I find my size?</h3>
+          <p>Check our size guide on each product page. If you're between sizes, we recommend sizing up.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Clothify. Demo store for learning.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Cart — Clothify</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container header">
+    <a class="logo" href="index.html">Clothify</a>
+    <nav class="nav">
+      <a href="index.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="wishlist.html">Wishlist <span id="wishlist-count" class="badge">0</span></a>
+      <a href="cart.html" class="cart-link active">Cart <span id="cart-count" class="badge">0</span></a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>Your Cart</h1>
+    <div id="cart-items"></div>
+    <div id="cart-summary" class="card hidden">
+      <div class="summary-row"><span>Subtotal</span><span id="subtotal">—</span></div>
+      <div class="summary-row"><span>Shipping</span><span>Free</span></div>
+      <div class="summary-row total"><span>Total</span><span id="total">—</span></div>
+      <button id="checkout-btn" class="btn">Checkout</button>
+      <p id="checkout-msg" class="muted"></p>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Clothify. Demo store for learning.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

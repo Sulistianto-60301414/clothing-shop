@@ -1,0 +1,137 @@
+[
+  {
+    "id": "tshirt-classic-white",
+    "name": "Classic Tee — White",
+    "price": 59.0,
+    "category": "Tops",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop&crop=center",
+    "description": "Soft 180gsm cotton. Crew neck. Regular fit."
+  },
+  {
+    "id": "tshirt-classic-black",
+    "name": "Classic Tee — Black",
+    "price": 59.0,
+    "category": "Tops",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&h=400&fit=crop&crop=center",
+    "description": "Soft 180gsm cotton. Crew neck. Regular fit."
+  },
+  {
+    "id": "hoodie-oversized",
+    "name": "Oversized Hoodie",
+    "price": 129.0,
+    "category": "Hoodies",
+    "sizes": ["S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop&crop=center",
+    "description": "Heavyweight fleece. Kangaroo pocket. Drop-shoulder."
+  },
+  {
+    "id": "jeans-straight-blue",
+    "name": "Straight Jeans — Blue",
+    "price": 149.0,
+    "category": "Bottoms",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop&crop=center",
+    "description": "12oz denim. Straight fit. Mid-rise."
+  },
+  {
+    "id": "jacket-denim",
+    "name": "Denim Jacket",
+    "price": 199.0,
+    "category": "Outerwear",
+    "sizes": ["S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop&crop=center",
+    "description": "Classic trucker style. Metal hardware."
+  },
+  {
+    "id": "dress-midi",
+    "name": "Midi Dress",
+    "price": 179.0,
+    "category": "Dresses",
+    "sizes": ["XS", "S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=400&fit=crop&crop=center",
+    "description": "Breathable linen blend. Square neckline."
+  },
+  {
+    "id": "sweater-wool",
+    "name": "Wool Sweater",
+    "price": 189.0,
+    "category": "Tops",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=400&h=400&fit=crop&crop=center",
+    "description": "100% merino wool. Cable knit. Classic fit."
+  },
+  {
+    "id": "blazer-navy",
+    "name": "Navy Blazer",
+    "price": 299.0,
+    "category": "Outerwear",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=center",
+    "description": "Tailored fit. Two-button closure. Premium wool blend."
+  },
+  {
+    "id": "skirt-pleated",
+    "name": "Pleated Skirt",
+    "price": 89.0,
+    "category": "Bottoms",
+    "sizes": ["XS", "S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1583496661160-fb5886a13d8e?w=400&h=400&fit=crop&crop=center",
+    "description": "A-line silhouette. Midi length. Comfortable waistband."
+  },
+  {
+    "id": "cardigan-beige",
+    "name": "Beige Cardigan",
+    "price": 119.0,
+    "category": "Tops",
+    "sizes": ["S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400&h=400&fit=crop&crop=center",
+    "description": "Soft knit. Button-front. Relaxed fit."
+  },
+  {
+    "id": "trousers-chino",
+    "name": "Chino Trousers",
+    "price": 99.0,
+    "category": "Bottoms",
+    "sizes": ["28", "30", "32", "34", "36"],
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=400&h=400&fit=crop&crop=center",
+    "description": "Cotton twill. Slim fit. Classic styling."
+  },
+  {
+    "id": "jacket-bomber",
+    "name": "Bomber Jacket",
+    "price": 159.0,
+    "category": "Outerwear",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5f?w=400&h=400&fit=crop&crop=center",
+    "description": "Lightweight nylon. Ribbed cuffs. Zip closure."
+  },
+  {
+    "id": "polo-shirt",
+    "name": "Polo Shirt",
+    "price": 79.0,
+    "category": "Tops",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=400&h=400&fit=crop&crop=center",
+    "description": "Cotton pique. Classic collar. Regular fit."
+  },
+  {
+    "id": "coat-wool",
+    "name": "Wool Coat",
+    "price": 349.0,
+    "category": "Outerwear",
+    "sizes": ["S", "M", "L"],
+    "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center",
+    "description": "Double-breasted. Premium wool. Tailored silhouette."
+  },
+  {
+    "id": "shorts-cotton",
+    "name": "Cotton Shorts",
+    "price": 49.0,
+    "category": "Bottoms",
+    "sizes": ["S", "M", "L", "XL"],
+    "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?w=400&h=400&fit=crop&crop=center",
+    "description": "100% cotton. Drawstring waist. Relaxed fit."
+  }
+]

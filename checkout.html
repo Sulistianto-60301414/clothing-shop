@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Checkout — Clothify</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container header">
+    <a class="logo" href="index.html">Clothify</a>
+    <nav class="nav">
+      <a href="index.html">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="wishlist.html">Wishlist <span id="wishlist-count" class="badge">0</span></a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count" class="badge">0</span></a>
+    </nav>
+  </header>
+
+  <main class="container" id="checkout-page">
+    <h1>Checkout</h1>
+
+    <div id="checkout-empty" class="hidden">
+      <p class="muted">Your cart is empty. <a href="index.html">Continue shopping</a>.</p>
+    </div>
+
+    <div class="checkout-grid">
+      <section class="checkout-form card">
+        <h2>Shipping & Payment</h2>
+        <form id="checkout-form" novalidate>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="fullName">Full name *</label>
+              <input id="fullName" name="fullName" required autocomplete="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input id="email" name="email" type="email" required autocomplete="email" />
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input id="phone" name="phone" type="tel" required autocomplete="tel" />
+            </div>
+            <div class="form-group">
+              <label for="address">Address *</label>
+              <input id="address" name="address" required autocomplete="street-address" />
+            </div>
+            <div class="form-group">
+              <label for="city">City *</label>
+              <input id="city" name="city" required autocomplete="address-level2" />
+            </div>
+            <div class="form-group">
+              <label for="country">Country *</label>
+              <input id="country" name="country" required autocomplete="country" />
+            </div>
+            <div class="form-group">
+              <label for="zip">ZIP / Postal code *</label>
+              <input id="zip" name="zip" required autocomplete="postal-code" />
+            </div>
+          </div>
+
+          <h3>Payment (Demo)</h3>
+          <div class="form-grid">
+            <div class="form-group">
+              <label for="cardName">Name on card *</label>
+              <input id="cardName" name="cardName" required autocomplete="cc-name" />
+            </div>
+            <div class="form-group">
+              <label for="cardNumber">Card number *</label>
+              <input id="cardNumber" name="cardNumber" inputmode="numeric" pattern="[0-9\s]{12,19}" maxlength="19" placeholder="4242 4242 4242 4242" required autocomplete="cc-number" />
+            </div>
+            <div class="form-group">
+              <label for="expiry">Expiry (MM/YY) *</label>
+              <input id="expiry" name="expiry" placeholder="MM/YY" pattern="^(0[1-9]|1[0-2])\/(\d{2})$" required autocomplete="cc-exp" />
+            </div>
+            <div class="form-group">
+              <label for="cvc">CVC *</label>
+              <input id="cvc" name="cvc" inputmode="numeric" pattern="\d{3,4}" maxlength="4" required autocomplete="cc-csc" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label><input type="checkbox" id="agree" required /> I understand this is a demo and no real payment will be processed.</label>
+          </div>
+
+          <button type="submit" id="pay-btn" class="btn btn-primary">Pay</button>
+          <p class="muted" style="margin-top:8px">⚠️ Educational demo only. Do not enter real card details.</p>
+        </form>
+      </section>
+
+      <aside class="checkout-summary card">
+        <h2>Order Summary</h2>
+        <div id="checkout-items"></div>
+        <div class="summary-row"><span>Subtotal</span><span id="checkout-subtotal">—</span></div>
+        <div class="summary-row"><span>Shipping</span><span>Free</span></div>
+        <div class="summary-row total"><span>Total</span><span id="checkout-total">—</span></div>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Clothify. Demo store for learning.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clothify — Minimal E‑Commerce</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="container header">
+    <a class="logo" href="index.html">Clothify</a>
+    <nav class="nav">
+      <a href="index.html" class="active">Shop</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="wishlist.html">Wishlist <span id="wishlist-count" class="badge">0</span></a>
+      <a href="cart.html" class="cart-link">Cart <span id="cart-count" class="badge">0</span></a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <h1>Sustainable Fashion. Timeless Style.</h1>
+        <p>Discover our curated collection of premium clothing designed for the conscious consumer. Quality pieces that transcend trends and respect our planet.</p>
+        <a class="btn" href="#products">Shop now</a>
+      </div>
+    </section>
+
+    <section class="filters">
+      <input type="search" id="search" placeholder="Search products..." />
+      <select id="category">
+        <option value="">All categories</option>
+        <option>Tops</option>
+        <option>Hoodies</option>
+        <option>Bottoms</option>
+        <option>Outerwear</option>
+        <option>Dresses</option>
+      </select>
+      <select id="sort">
+        <option value="">Sort</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-desc">Price: High to Low</option>
+        <option value="name-asc">Name: A → Z</option>
+        <option value="name-desc">Name: Z → A</option>
+      </select>
+      <select id="price-range">
+        <option value="">All prices</option>
+        <option value="0-50">Under QAR 50</option>
+        <option value="50-100">QAR 50 - 100</option>
+        <option value="100-200">QAR 100 - 200</option>
+        <option value="200+">QAR 200+</option>
+      </select>
+    </section>
+
+    <section id="products" class="grid"></section>
+  </main>
+
+  <footer class="container footer">
+    <small>© <span id="year"></span> Clothify. Demo store for learning.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

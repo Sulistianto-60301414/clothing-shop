@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+<rect width="100%" height="100%" fill="#e0f2fe"/>
+<path d="M90 90h140l-10 150H100z" fill="#38bdf8" stroke="#0ea5e9" stroke-width="4"/>
+<circle cx="160" cy="140" r="6" fill="#075985"/>
+<text x="50%" y="92%" text-anchor="middle" font-family="Arial" font-size="16" fill="#0369a1">Denim Jacket</text>
+</svg>

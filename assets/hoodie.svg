@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320">
+<rect width="100%" height="100%" fill="#f1f5f9"/>
+<path d="M160 80c-30 0-40 20-40 40v120h80V120c0-20-10-40-40-40z" fill="#94a3b8"/>
+<path d="M120 120l-40 20v80l40 20m80-120l40 20v80l-40 20" fill="none" stroke="#64748b" stroke-width="6"/>
+<text x="50%" y="92%" text-anchor="middle" font-family="Arial" font-size="16" fill="#475569">Oversized Hoodie</text>
+</svg>

@@ -1,0 +1,85 @@
+[
+  {
+    "id": "tshirt-classic-white",
+    "name": "Classic Tee \u2014 White",
+    "price": 59.0,
+    "category": "Tops",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop&crop=center",
+    "description": "Soft 180gsm cotton. Crew neck. Regular fit."
+  },
+  {
+    "id": "tshirt-classic-black",
+    "name": "Classic Tee \u2014 Black",
+    "price": 59.0,
+    "category": "Tops",
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "image": "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=400&h=400&fit=crop&crop=center",
+    "description": "Soft 180gsm cotton. Crew neck. Regular fit."
+  },
+  {
+    "id": "hoodie-oversized",
+    "name": "Oversized Hoodie",
+    "price": 129.0,
+    "category": "Hoodies",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400&h=400&fit=crop&crop=center",
+    "description": "Heavyweight fleece. Kangaroo pocket. Drop-shoulder."
+  },
+  {
+    "id": "jeans-straight-blue",
+    "name": "Straight Jeans \u2014 Blue",
+    "price": 149.0,
+    "category": "Bottoms",
+    "sizes": [
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=400&fit=crop&crop=center",
+    "description": "12oz denim. Straight fit. Mid-rise."
+  },
+  {
+    "id": "jacket-denim",
+    "name": "Denim Jacket",
+    "price": 199.0,
+    "category": "Outerwear",
+    "sizes": [
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400&h=400&fit=crop&crop=center",
+    "description": "Classic trucker style. Metal hardware."
+  },
+  {
+    "id": "dress-midi",
+    "name": "Midi Dress",
+    "price": 179.0,
+    "category": "Dresses",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L"
+    ],
+    "image": "https://images.unsplash.com/photo-1515372039744-b8f02a3ae446?w=400&h=400&fit=crop&crop=center",
+    "description": "Breathable linen blend. Square neckline."
+  }
+]
